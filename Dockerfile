@@ -1,5 +1,5 @@
-FROM wordpress:php7.1
-MAINTAINER mz32 <info@mz32.dev>
+FROM wordpress:php8.1
+MAINTAINER hrm09
 
 ENV USER wpuser
 ENV HOME /home/${USER}
